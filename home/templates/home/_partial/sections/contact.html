@@ -1,0 +1,47 @@
+<section id="contact" class="bg-cover bg-gray bg-overlay-black-6">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-white">
+                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Контакты</h3>
+                <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">Свяжитесь с нами</p>
+                <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+
+                <div class="mt-4 text-extra-large text-white">
+                    <p>Звоните нам по одному из следующих номеров:</p>
+                    <span class="d-block mt-1">+38 (093) 532-50-37</span>
+                    <span class="d-block mt-1">+38 (093) 532-50-37</span>
+                </div>
+                <!-- //.mt-4 -->
+            </div>
+            <!-- //.col-lg-6 -->
+
+            <div class="col-lg-6 mt-5 mt-lg-0">
+                <form action="contact/send_mail.php" method="post" id="form-contact">
+                    <div class="form-group">
+                        <span class="d-block font-alt letter-spacing-1 text-medium text-uppercase text-white">Ваше имя</span>
+                        <input type="text" name="name" class="font-alt form-control mt-2 required" id="name" placeholder="">
+                    </div>
+                    <!-- //.form-group -->
+
+                    <div class="form-group">
+                        <span class="d-block font-alt letter-spacing-1 text-medium text-uppercase text-white">Ваш Email</span>
+                        <input type="email" name="email" class="font-alt form-control mt-2 required email" id="email" placeholder="">
+                    </div>
+                    <!-- //.form-group -->
+
+                    <div class="form-group">
+                        <span class="d-block font-alt letter-spacing-1 text-medium text-uppercase text-white">Сообщения</span>
+                        <textarea name="message" class="font-alt form-control mt-2 required" id="message" rows="6" placeholder=""></textarea>
+                    </div>
+                    <!-- //.form-group -->
+
+                    <span class="d-block font-alt letter-spacing-1 text-small text-uppercase text-white">*Пожалуйста, заполните все поля верно</span>
+                    <button type="submit" class="btn btn-shadow btn-base-color mt-4 text-uppercase" id="btn-form-contact">Отправить</button>
+                </form>
+            </div>
+            <!-- //.col-lg-6 -->
+        </div>
+        <!-- //.row -->
+    </div>
+    <!-- //.container -->
+</section>
