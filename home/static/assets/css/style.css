@@ -117,3 +117,19 @@
     bottom: 10px;
     position: relative;
 }
+
+.top-contacts {
+        height: 60px;
+}
+
+.top-contacts.shrink {
+    height: 40px;
+}
+
+.fixed-top-2 {
+    margin-top: 60px;
+}
+
+.fixed-top-2.shrink {
+    margin-top: 40px;
+}
