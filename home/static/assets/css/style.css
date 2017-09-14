@@ -118,8 +118,12 @@
     position: relative;
 }
 
+.top-contacts .row{
+    width: 100%;
+}
+
 .top-contacts {
-        height: 60px;
+    height: 60px;
 }
 
 .top-contacts.shrink {
@@ -132,4 +136,23 @@
 
 .fixed-top-2.shrink {
     margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+    .top-contacts {
+        height: 80px;
+    }
+
+    .fixed-top-2 {
+        margin-top: 80px;
+    }
+
+    .top-contacts.shrink {
+        height: 80px;
+    }
+
+    .fixed-top-2.shrink {
+        margin-top: 80px;
+    }
+
 }
