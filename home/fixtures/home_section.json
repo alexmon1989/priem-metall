@@ -1,0 +1,13 @@
+[
+  {
+    "model": "home.HomeSection",
+    "pk": 1,
+    "fields": {
+      "text_1": "Добро пожаловать",
+      "text_2": "Приём и вывоз металлолома в Киеве",
+      "text_3": "Дорого купим ваш металлолом. Свяжитесь с нами и убедитесь, что наши цены - лучшие на рынке.",
+      "text_4": "Узнать больше",
+      "text_5": "Gunung Rinjani merupakan salah satu destinasi gunung favorit bagi para pendaki di Indonesia dikarenakan keindahan pemandangan alamnya. Gunung Rinjani berlokasi di Pulau Lombok, Nusa Tenggara Barat."
+    }
+  }
+]
