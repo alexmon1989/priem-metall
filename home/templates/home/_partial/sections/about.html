@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-lg-9 pb-lg-4 text-center">
-                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Кто мы?</h3>
-                <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">Несколько вещей, которые вам стоит знать о нас</p>
+                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">{{ about_section.title }}</h3>
+                <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">{{ about_section.under_title }}</p>
                 <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
             </div>
             <!-- //.col-lg-9 -->
@@ -14,17 +14,17 @@
             <div class="col-lg-6">
                 <div class="carousel-custom" data-pagedots="true" data-draggable="false" data-autoplay="5000">
                     <div class="carousel-cell w-100">
-                        <img src="static/assets/images/about-1.jpg" alt="" class="img-fluid box-shadow-shallow rounded"/>
+                        <img src="media/{{ about_section.image_1 }}" alt="" class="img-fluid box-shadow-shallow rounded"/>
                     </div>
                     <!-- //.carousel-cell -->
 
                     <div class="carousel-cell w-100">
-                        <img src="static/assets/images/about-2.jpg" alt="" class="img-fluid box-shadow-shallow rounded"/>
+                        <img src="media/{{ about_section.image_2 }}" alt="" class="img-fluid box-shadow-shallow rounded"/>
                     </div>
                     <!-- //.carousel-cell -->
 
                     <div class="carousel-cell w-100">
-                        <img src="static/assets/images/about-3.jpg" alt="" class="img-fluid box-shadow-shallow rounded"/>
+                        <img src="media/{{ about_section.image_3 }}" alt="" class="img-fluid box-shadow-shallow rounded"/>
                     </div>
                     <!-- //.carousel-cell -->
                 </div>
@@ -34,9 +34,7 @@
 
             <div class="col-lg-6">
                 <div class="pl-lg-4 pt-5 pt-lg-0">
-                    <p class="font-alt text-extra-large">Gunung Rinjani adalah nama sebuah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung ini merupakan gunung favorit bagi pendaki Indonesia karena keindahan pemandangannya.</p>
-                    <p class="font-alt mt-2 text-extra-large">Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki luas sekitar 41.330 ha dan ini akan segera diusulkan penambahannya sehingga menjadi 76.000 ha. Secara administratif gunung ini berada dalam wilayah tiga kabupaten: Lombok Timur, Lombok Tengah dan Lombok Barat. </p>
-                    <p class="font-alt mt-2 text-extra-large">Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki.</p>
+                    {{ about_section.text|safe }}
                 </div>
                 <!-- //.pl-lg-4 -->
             </div>

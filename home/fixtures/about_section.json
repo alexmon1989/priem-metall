@@ -1,0 +1,14 @@
+[
+  {
+    "model": "home.AboutSection",
+    "pk": 1,
+    "fields": {
+      "title": "Кто мы?",
+      "under_title": "Несколько вещей, которые вам стоит знать о нас",
+      "text": "<p class=\"font-alt text-extra-large\">Gunung Rinjani adalah nama sebuah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung ini merupakan gunung favorit bagi pendaki Indonesia karena keindahan pemandangannya.</p><p class=\"font-alt mt-2 text-extra-large\">Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki luas sekitar 41.330 ha dan ini akan segera diusulkan penambahannya sehingga menjadi 76.000 ha. Secara administratif gunung ini berada dalam wilayah tiga kabupaten: Lombok Timur, Lombok Tengah dan Lombok Barat. </p><p class=\"font-alt mt-2 text-extra-large\">Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki.</p>",
+      "image_1": "uploads/about-1.jpg",
+      "image_2": "uploads/about-2.jpg",
+      "image_3": "uploads/about-3.jpg"
+    }
+  }
+]
