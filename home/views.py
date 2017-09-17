@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from home.models import HomeSection, AboutSection
+from home.models import HomeSection, AboutSection, FactsSection
 
 
 def home_page(request):
@@ -9,5 +9,6 @@ def home_page(request):
         {
             'home_section': HomeSection.objects.first(),
             'about_section': AboutSection.objects.first(),
+            'facts_section': FactsSection.objects.first(),
         }
     )

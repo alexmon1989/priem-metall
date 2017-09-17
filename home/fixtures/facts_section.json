@@ -1,0 +1,22 @@
+[
+  {
+    "model": "home.FactsSection",
+    "pk": 1,
+    "fields": {
+      "title": "Факты в цифрах",
+      "under_title": "Некоторые факты о нас в цифрах",
+
+      "fact_1_title": "Тонн металла мы принимаем ежемесячно",
+      "fact_1_value": 20,
+      "fact_1_icon": "fa-thumbs-o-up",
+
+      "fact_2_title": "Довольных клиентов",
+      "fact_2_value": 157,
+      "fact_2_icon": "fa-smile-o",
+
+      "fact_3_title": "Года на рынке",
+      "fact_3_value": 3,
+      "fact_3_icon": "fa-calendar"
+    }
+  }
+]
