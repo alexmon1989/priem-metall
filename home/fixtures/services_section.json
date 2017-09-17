@@ -1,0 +1,22 @@
+[
+  {
+    "model": "home.ServicesSection",
+    "pk": 1,
+    "fields": {
+      "title": "Наши услуги",
+      "under_title": "Мы являемся экспертами в таких направлениях:",
+
+      "service_1_title": "Приём металлолома",
+      "service_1_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "service_1_icon": "fa-cart-arrow-down",
+
+      "service_2_title": "Демонтаж металлоконструкций",
+      "service_2_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "service_2_icon": "fa-wrench",
+
+      "service_3_title": "Вывоз металлолома",
+      "service_3_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "service_3_icon": "fa-truck"
+    }
+  }
+]

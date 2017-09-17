@@ -118,3 +118,28 @@ class SkillsSection(models.Model):
     class Meta:
         verbose_name = 'Секция Skills'
         verbose_name_plural = 'Секция Skills'
+
+
+class ServicesSection(models.Model):
+    """Модель для секции Services"""
+    title = models.CharField(verbose_name='Заглавие', default='', max_length=255)
+    under_title = models.CharField(verbose_name='Текст под заглавием', default='', max_length=255)
+
+    service_1_title = models.CharField(verbose_name='Название услуги 1', default='', max_length=255)
+    service_1_text = models.CharField(verbose_name='Описание услуги 1', default='', max_length=255)
+    service_1_icon = models.CharField(verbose_name='Иконка услуги 1', default='', max_length=255)
+
+    service_2_title = models.CharField(verbose_name='Название услуги 2', default='', max_length=255)
+    service_2_text = models.CharField(verbose_name='Описание услуги 2', default='', max_length=255)
+    service_2_icon = models.CharField(verbose_name='Иконка услуги 2', default='', max_length=255)
+
+    service_3_title = models.CharField(verbose_name='Название услуги 3', default='', max_length=255)
+    service_3_text = models.CharField(verbose_name='Описание услуги 3', default='', max_length=255)
+    service_3_icon = models.CharField(verbose_name='Иконка услуги 3', default='', max_length=255)
+
+    def __str__(self):
+        return 'Секция Services'
+
+    class Meta:
+        verbose_name = 'Секция Services'
+        verbose_name_plural = 'Секция Services'

@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-lg-9 pb-lg-4 text-center">
-                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Наши услуги</h3>
-                <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">Мы являемся экспертами в таких направлениях:</p>
+                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">{{ services_section.title }}</h3>
+                <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">{{ services_section.under_title }}</p>
                 <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
             </div>
             <!-- //.col-lg-9 -->
@@ -14,13 +14,13 @@
             <div class="col-md-4">
                 <div class="features-block text-center">
                     <div class="block-icon ease">
-                        <i class="fa fa-cart-arrow-down ease"></i>
+                        <i class="fa {{ services_section.service_1_icon }} ease"></i>
                     </div>
                     <!-- //.block-icon -->
 
-                    <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">Приём металлолома</span>
+                    <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">{{ services_section.service_1_title }}</span>
                     <span class="bg-base-color d-inline-block mt-2 sep-line"></span>
-                    <p class="mt-2 text-large">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <p class="mt-2 text-large">{{ services_section.service_1_text }}</p>
                 </div>
                 <!-- //.features-block -->
             </div>
@@ -29,13 +29,13 @@
             <div class="col-md-4 mt-5 mt-md-0">
                 <div class="features-block text-center">
                     <div class="block-icon ease">
-                        <i class="fa fa-wrench ease"></i>
+                        <i class="fa {{ services_section.service_2_icon }} ease"></i>
                     </div>
                     <!-- //.block-icon -->
 
-                    <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">Демонтаж металлоконструкций</span>
+                    <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">{{ services_section.service_2_title }}</span>
                     <span class="bg-base-color d-inline-block mt-2 sep-line"></span>
-                    <p class="mt-2 text-large">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <p class="mt-2 text-large">{{ services_section.service_2_text }}</p>
                 </div>
                 <!-- //.features-block -->
             </div>
@@ -44,13 +44,13 @@
             <div class="col-md-4 mt-5 mt-md-0">
                 <div class="features-block border-0 text-center">
                     <div class="block-icon ease">
-                        <i class="fa fa-truck ease"></i>
+                        <i class="fa {{ services_section.service_3_icon }} ease"></i>
                     </div>
                     <!-- //.block-icon -->
 
-                    <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">Вывоз металлолома</span>
+                    <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">{{ services_section.service_3_title }}</span>
                     <span class="bg-base-color d-inline-block mt-2 sep-line"></span>
-                    <p class="mt-2 text-large">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <p class="mt-2 text-large">{{ services_section.service_3_text }}</p>
                 </div>
                 <!-- //.features-block -->
             </div>

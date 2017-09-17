@@ -1,39 +1,16 @@
 from django.contrib import admin
 from singlemodeladmin import SingleModelAdmin
-from home.models import HomeSection, AboutSection, FactsSection, WhyUsSection, SkillsSection
+from home.models import HomeSection, AboutSection, FactsSection, WhyUsSection, SkillsSection, ServicesSection
 
 
-class HomeSectionAdmin(SingleModelAdmin):
-
-    def has_delete_permission(self, request, obj=None):
-        return False
-
-
-class AboutSectionAdmin(SingleModelAdmin):
+class SectionAdmin(SingleModelAdmin):
 
     def has_delete_permission(self, request, obj=None):
         return False
 
-
-class FactsSectionAdmin(SingleModelAdmin):
-
-    def has_delete_permission(self, request, obj=None):
-        return False
-
-
-class WhyUsSectionAdmin(SingleModelAdmin):
-
-    def has_delete_permission(self, request, obj=None):
-        return False
-
-
-class SkillsSectionAdmin(SingleModelAdmin):
-
-    def has_delete_permission(self, request, obj=None):
-        return False
-
-admin.site.register(HomeSection, HomeSectionAdmin)
-admin.site.register(AboutSection, AboutSectionAdmin)
-admin.site.register(FactsSection, FactsSectionAdmin)
-admin.site.register(WhyUsSection, WhyUsSectionAdmin)
-admin.site.register(SkillsSection, SkillsSectionAdmin)
+admin.site.register(HomeSection, SectionAdmin)
+admin.site.register(AboutSection, SectionAdmin)
+admin.site.register(FactsSection, SectionAdmin)
+admin.site.register(WhyUsSection, SectionAdmin)
+admin.site.register(SkillsSection, SectionAdmin)
+admin.site.register(ServicesSection, SectionAdmin)
