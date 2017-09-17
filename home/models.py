@@ -60,7 +60,7 @@ class FactsSection(models.Model):
 
 
 class WhyUsSection(models.Model):
-    """Модель для секции Facts"""
+    """Модель для секции WhyUs"""
     title = models.CharField(verbose_name='Заглавие', default='', max_length=255)
     under_title = models.CharField(verbose_name='Текст под заглавием', default='', max_length=255)
 
@@ -96,3 +96,25 @@ class WhyUsSection(models.Model):
     class Meta:
         verbose_name = 'Секция WhyUs'
         verbose_name_plural = 'Секция WhyUs'
+
+
+class SkillsSection(models.Model):
+    """Модель для секции Skills"""
+    title = models.CharField(verbose_name='Заглавие', default='', max_length=255)
+    under_title = models.CharField(verbose_name='Текст под заглавием', default='', max_length=255)
+
+    skill_1_title = models.CharField(verbose_name='Название принципа 1', default='', max_length=255)
+    skill_1_value = models.IntegerField(verbose_name='Значение принципа 1', default=0)
+
+    skill_2_title = models.CharField(verbose_name='Название принципа 2', default='', max_length=255)
+    skill_2_value = models.IntegerField(verbose_name='Значение принципа 2', default=0)
+
+    skill_3_title = models.CharField(verbose_name='Название принципа 3', default='', max_length=255)
+    skill_3_value = models.IntegerField(verbose_name='Значение принципа 3', default=0)
+
+    def __str__(self):
+        return 'Секция Skills'
+
+    class Meta:
+        verbose_name = 'Секция Skills'
+        verbose_name_plural = 'Секция Skills'

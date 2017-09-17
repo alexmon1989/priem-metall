@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-lg-9 pb-lg-4 text-center text-white">
-                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Наши принципы работы</h3>
-                <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">Мы знаем что вам необходимо</p>
+                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">{{ skills_section.title }}</h3>
+                <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">{{ skills_section.under_title }}</p>
                 <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
             </div>
             <!-- //.col-lg-9 -->
@@ -13,40 +13,40 @@
         <div class="row">
             <div class="col-md-4 col-lg-4 text-center">
                 <div class="pie-chart opacity-9-5">
-                    <div class="chart font-alt text-white" data-percent="0" data-percent-update="100" data-bar-color="#f9461d" data-track-color="#ffffff">
-                        <span class="percent font-alt font-w-600 title-extra-large-2">0%</span>
+                    <div class="chart font-alt text-white" data-percent="0" data-percent-update="{{ skills_section.skill_1_value }}" data-bar-color="#f9461d" data-track-color="#ffffff">
+                        <span class="percent font-alt font-w-600 title-extra-large-2">{{ skills_section.skill_1_value }}%</span>
                     </div>
                     <!-- //.chart -->
                 </div>
                 <!-- //.pie-chart -->
 
-                <span class="d-block font-alt letter-spacing-2 mt-3 title-medium text-uppercase text-white">Оперативность</span>
+                <span class="d-block font-alt letter-spacing-2 mt-3 title-medium text-uppercase text-white">{{ skills_section.skill_1_title }}</span>
             </div>
             <!-- //.col-md-6 -->
 
             <div class="col-md-4 col-lg-4 mt-5 mt-md-0 text-center">
                 <div class="pie-chart opacity-9-5">
-                    <div class="chart font-alt text-white" data-percent="0" data-percent-update="100" data-bar-color="#f9461d" data-track-color="#ffffff">
-                        <span class="percent font-alt font-w-600 title-extra-large-2">0%</span>
+                    <div class="chart font-alt text-white" data-percent="0" data-percent-update="{{ skills_section.skill_2_value }}" data-bar-color="#f9461d" data-track-color="#ffffff">
+                        <span class="percent font-alt font-w-600 title-extra-large-2">{{ skills_section.skill_2_value }}%</span>
                     </div>
                     <!-- //.chart -->
                 </div>
                 <!-- //.pie-chart -->
 
-                <span class="d-block font-alt letter-spacing-2 mt-3 title-medium text-uppercase text-white">Профессионализм</span>
+                <span class="d-block font-alt letter-spacing-2 mt-3 title-medium text-uppercase text-white">{{ skills_section.skill_2_title }}</span>
             </div>
             <!-- //.col-md-6 -->
 
             <div class="col-md-4 col-lg-4 mt-5 mt-lg-0 text-center">
                 <div class="pie-chart opacity-9-5">
-                    <div class="chart font-alt text-white" data-percent="0" data-percent-update="100" data-bar-color="#f9461d" data-track-color="#ffffff">
-                        <span class="percent font-alt font-w-600 title-extra-large-2">0%</span>
+                    <div class="chart font-alt text-white" data-percent="0" data-percent-update="{{ skills_section.skill_3_value }}" data-bar-color="#f9461d" data-track-color="#ffffff">
+                        <span class="percent font-alt font-w-600 title-extra-large-2">{{ skills_section.skill_3_value }}%</span>
                     </div>
                     <!-- //.chart -->
                 </div>
                 <!-- //.pie-chart -->
 
-                <span class="d-block font-alt letter-spacing-2 mt-3 title-medium text-uppercase text-white">Конкурентный уровень цен</span>
+                <span class="d-block font-alt letter-spacing-2 mt-3 title-medium text-uppercase text-white">{{ skills_section.skill_3_title }}</span>
             </div>
             <!-- //.col-md-6 -->
         </div>

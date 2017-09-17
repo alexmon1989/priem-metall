@@ -1,0 +1,19 @@
+[
+  {
+    "model": "home.SkillsSection",
+    "pk": 1,
+    "fields": {
+      "title": "Наши принципы работы",
+      "under_title": "Мы знаем что вам необходимо",
+
+      "skill_1_title": "Оперативность",
+      "skill_1_value": 100,
+
+      "skill_2_title": "Профессионализм",
+      "skill_2_value": 100,
+
+      "skill_3_title": "Конкурентный уровень цен",
+      "skill_3_value": 100
+    }
+  }
+]
