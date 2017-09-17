@@ -57,3 +57,42 @@ class FactsSection(models.Model):
     class Meta:
         verbose_name = 'Секция Facts'
         verbose_name_plural = 'Секция Facts'
+
+
+class WhyUsSection(models.Model):
+    """Модель для секции Facts"""
+    title = models.CharField(verbose_name='Заглавие', default='', max_length=255)
+    under_title = models.CharField(verbose_name='Текст под заглавием', default='', max_length=255)
+
+    reason_1_title = models.CharField(verbose_name='Название причины 1', default='', max_length=255)
+    reason_1_text = models.CharField(verbose_name='Текст причины 1', default='', max_length=255)
+    reason_1_icon = models.CharField(verbose_name='Иконка причины 1', default='', max_length=255)
+
+    reason_2_title = models.CharField(verbose_name='Название причины 2', default='', max_length=255)
+    reason_2_text = models.CharField(verbose_name='Текст причины 2', default='', max_length=255)
+    reason_2_icon = models.CharField(verbose_name='Иконка причины 2', default='', max_length=255)
+
+    reason_3_title = models.CharField(verbose_name='Название причины 3', default='', max_length=255)
+    reason_3_text = models.CharField(verbose_name='Текст причины 3', default='', max_length=255)
+    reason_3_icon = models.CharField(verbose_name='Иконка причины 3', default='', max_length=255)
+
+    reason_4_title = models.CharField(verbose_name='Название причины 4', default='', max_length=255)
+    reason_4_text = models.CharField(verbose_name='Текст причины 4', default='', max_length=255)
+    reason_4_icon = models.CharField(verbose_name='Иконка причины 4', default='', max_length=255)
+
+    reason_5_title = models.CharField(verbose_name='Название причины 5', default='', max_length=255)
+    reason_5_text = models.CharField(verbose_name='Текст причины 5', default='', max_length=255)
+    reason_5_icon = models.CharField(verbose_name='Иконка причины 5', default='', max_length=255)
+
+    reason_6_title = models.CharField(verbose_name='Название причины 6', default='', max_length=255)
+    reason_6_text = models.CharField(verbose_name='Текст причины 6', default='', max_length=255)
+    reason_6_icon = models.CharField(verbose_name='Иконка причины 6', default='', max_length=255)
+
+    under_text = models.TextField(verbose_name='Текст внизу секции', default='', max_length=255)
+
+    def __str__(self):
+        return 'Секция WhyUs'
+
+    class Meta:
+        verbose_name = 'Секция WhyUs'
+        verbose_name_plural = 'Секция WhyUs'

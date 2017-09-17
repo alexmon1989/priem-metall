@@ -1,0 +1,36 @@
+[
+  {
+    "model": "home.WhyUsSection",
+    "pk": 1,
+    "fields": {
+      "title": "Почему мы?",
+      "under_title": "6 причин почему мы лучшие",
+
+      "reason_1_title": "Цена",
+      "reason_1_text": "Мы готовы предложить реально высокую цену за ваш металлолом.",
+      "reason_1_icon": "fa-dollar",
+
+      "reason_2_title": "Сроки",
+      "reason_2_text": "Освободим ваше пространство от металлолома в кратчайшие сроки.",
+      "reason_2_icon": "fa-clock-o",
+
+      "reason_3_title": "Опыт",
+      "reason_3_text": "Наши сотрудники в деле не первый год, так что демонтаж металлоконструкций будет выполнен на отлично.",
+      "reason_3_icon": "fa-star-o",
+
+      "reason_4_title": "Ответственность",
+      "reason_4_text": "Нам важна наша репутация, поэтому мы беспокоимся о каждом нашем клиенте.",
+      "reason_4_icon": "fa-shield",
+
+      "reason_5_title": "Автопарк",
+      "reason_5_text": "Для любого количества металлолома у нас найдутся соответствующие грузовики.",
+      "reason_5_icon": "fa-truck",
+
+      "reason_6_title": "Пункт приёма",
+      "reason_6_text": "Желаете привезти лом самостоятельно? Мы вас ждём по адресу <strong>ул. Бориспольская, 19</strong>.",
+      "reason_6_icon": "fa-map-marker",
+
+      "under_text": "<span class=\"d-block mt-4 font-alt text-black title-large\">Для консультации или оформления заявки свяжитесь с нами</span><span class=\"d-block mt-4 font-alt title-extra-large\"><a class=\"text-base-color\" href=\"tel:+380935325037\" title=\"Нажмите для звонка\">+38 (093) 532-50-37</a><br><a class=\"text-base-color\" href=\"tel:+380663833290\" title=\"Нажмите для звонка\">+38 (066) 383-32-90</a></span>"
+    }
+  }
+]
