@@ -95,3 +95,4 @@ ENV/
 .ropeproject
 
 /.idea/
+/priem_metall/settings.py
