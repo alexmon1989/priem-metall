@@ -1,0 +1,10 @@
+[
+  {
+    "model": "home.ContactsSection",
+    "pk": 1,
+    "fields": {
+      "phones_text": "<p class=\"font-weight-bold\">Звоните нам по одному из следующих номеров:</p><span class=\"d-block mt-1\">+38 (093) 532-50-37</span><span class=\"d-block mt-1\">+38 (066) 383-32-90</span>",
+      "address_text": "<p class=\"font-weight-bold\">Или приезжайте по адресу:</p><span class=\"d-block mt-1\">г. Киев, ул. Бориспольская, 19</span>"
+    }
+  }
+]

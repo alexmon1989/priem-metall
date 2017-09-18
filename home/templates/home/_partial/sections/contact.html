@@ -6,15 +6,12 @@
                 <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
 
                 <div class="mt-4 text-extra-large text-white">
-                    <p class="font-weight-bold">Звоните нам по одному из следующих номеров:</p>
-                    <span class="d-block mt-1">+38 (093) 532-50-37</span>
-                    <span class="d-block mt-1">+38 (093) 532-50-37</span>
+                    {{ contacts_section.phones_text|safe }}
                 </div>
                 <!-- //.mt-4 -->
 
                 <div class="mt-4 text-extra-large text-white">
-                    <p class="font-weight-bold">Или приезжайте по адресу:</p>
-                    <span class="d-block mt-1">г. Киев, ул. Бориспольская, 19</span>
+                    {{ contacts_section.address_text|safe }}
                 </div>
                 <!-- //.mt-4 -->
             </div>

@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from home.models import (HomeSection, AboutSection, FactsSection, WhyUsSection, SkillsSection, ServicesSection,
-                         QuoteSection, PricingSection, JobSchemeSection, TestimonialsSection)
+                         QuoteSection, PricingSection, JobSchemeSection, TestimonialsSection, ContactsSection)
 
 
 def home_page(request):
@@ -18,5 +18,6 @@ def home_page(request):
             'pricing_section': PricingSection.objects.first(),
             'job_scheme_section': JobSchemeSection.objects.first(),
             'testimonials_section': TestimonialsSection.objects.first(),
+            'contacts_section': ContactsSection.objects.first(),
         }
     )

@@ -229,3 +229,16 @@ class TestimonialsSection(models.Model):
     class Meta:
         verbose_name = 'Секция Testimonials'
         verbose_name_plural = 'Секция Testimonials'
+
+
+class ContactsSection(models.Model):
+    """Модель для секции Contacts"""
+    phones_text = models.TextField(verbose_name='Текст блока телефонов', default='')
+    address_text = models.TextField(verbose_name='Текст блока адреса', default='')
+
+    def __str__(self):
+        return 'Секция Contacts'
+
+    class Meta:
+        verbose_name = 'Секция Contacts'
+        verbose_name_plural = 'Секция Contacts'
