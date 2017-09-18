@@ -1,0 +1,11 @@
+[
+  {
+    "model": "home.HeaderContactsSection",
+    "pk": 1,
+    "fields": {
+      "phone_1": "+38 (093) 532-50-37",
+      "phone_2": "+38 (093) 532-50-37",
+      "address": "г. Киев, ул. Бориспольская, 19"
+    }
+  }
+]
