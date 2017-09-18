@@ -204,3 +204,28 @@ class JobSchemeSection(models.Model):
     class Meta:
         verbose_name = 'Секция JobScheme'
         verbose_name_plural = 'Секция JobScheme'
+
+
+class TestimonialsSection(models.Model):
+    """Модель для секции Testimonials"""
+    item_1_name = models.CharField(verbose_name='Имя клиента 1', default='', max_length=255)
+    item_1_position = models.CharField(verbose_name='Должность клиента 1', default='', max_length=255)
+    item_1_image = models.ImageField(verbose_name='Изображение клиента 1', upload_to='uploads/')
+    item_1_text = models.TextField(verbose_name='Текст отзыва 1', default='')
+
+    item_2_name = models.CharField(verbose_name='Имя клиента 2', default='', max_length=255)
+    item_2_position = models.CharField(verbose_name='Должность клиента 2', default='', max_length=255)
+    item_2_image = models.ImageField(verbose_name='Изображение клиента 2', upload_to='uploads/')
+    item_2_text = models.TextField(verbose_name='Текст отзыва 2', default='')
+
+    item_3_name = models.CharField(verbose_name='Имя клиента 3', default='', max_length=255)
+    item_3_position = models.CharField(verbose_name='Должность клиента 3', default='', max_length=255)
+    item_3_image = models.ImageField(verbose_name='Изображение клиента 3', upload_to='uploads/')
+    item_3_text = models.TextField(verbose_name='Текст отзыва 3', default='')
+
+    def __str__(self):
+        return 'Секция Testimonials'
+
+    class Meta:
+        verbose_name = 'Секция Testimonials'
+        verbose_name_plural = 'Секция Testimonials'
