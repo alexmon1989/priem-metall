@@ -11,25 +11,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     </head>
     <body id="page-top">
-        {% compress css %}
-        <!-- Bootstrap CSS -->
-        <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
-
-        <!-- Font Awesome CSS -->
-        <link href="{% static 'assets/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
-
-        <!-- Include all css plugins (below), or include individual files as needed -->
-        <link href="{% static 'assets/css/flickity.min.css' %}" rel="stylesheet" type="text/css">
-        <link href="{% static 'assets/css/magnific-popup.css' %}" rel="stylesheet" type="text/css">
-
-        <!-- Theme CSS -->
-        <link href="{% static 'assets/css/theme.min.css' %}" rel="stylesheet" type="text/css">
-        <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" type="text/css">
-
-        <!-- Color Scheme CSS -->
-        <link href="{% static 'assets/css/color_orange.css' %}" rel="stylesheet" type="text/css">
-        {% endcompress %}
-
         <!-- Navigation Start -->
         {% include 'home/_partial/navigation.html' %}
         <!-- //Navigation End -->
@@ -88,6 +69,25 @@
 
         <!-- Scroll to top -->
         <a href="#page-top" class="page-scroll scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+        {% compress css %}
+        <!-- Bootstrap CSS -->
+        <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- Font Awesome CSS -->
+        <link href="{% static 'assets/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- Include all css plugins (below), or include individual files as needed -->
+        <link href="{% static 'assets/css/flickity.min.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'assets/css/magnific-popup.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- Theme CSS -->
+        <link href="{% static 'assets/css/theme.min.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- Color Scheme CSS -->
+        <link href="{% static 'assets/css/color_orange.css' %}" rel="stylesheet" type="text/css">
+        {% endcompress %}
 
         {% compress js %}
         <!-- Main JS -->
