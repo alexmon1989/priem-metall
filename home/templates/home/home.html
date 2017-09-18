@@ -1,3 +1,4 @@
+{% load compress %}
 <!DOCTYPE html>
 <html lang="ru">
     <head>
@@ -8,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+        {% compress css %}
         <!-- Bootstrap CSS -->
         <link href="static/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
@@ -24,6 +26,7 @@
 
         <!-- Color Scheme CSS -->
         <link href="static/assets/css/color_orange.css" rel="stylesheet" type="text/css">
+        {% endcompress %}
     </head>
     <body id="page-top">
         <!-- Navigation Start -->
@@ -85,6 +88,7 @@
         <!-- Scroll to top -->
         <a href="#page-top" class="page-scroll scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
+        {% compress js %}
         <!-- Main JS -->
         <script src="static/assets/js/jquery.min.js"></script>
         <script src="static/assets/js/tether.min.js"></script>
@@ -110,5 +114,6 @@
 
         <!-- Theme JS -->
         <script src="static/assets/js/theme.js"></script>
+        {% endcompress %}
     </body>
 </html>
