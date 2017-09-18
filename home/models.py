@@ -155,3 +155,17 @@ class QuoteSection(models.Model):
     class Meta:
         verbose_name = 'Секция Quote'
         verbose_name_plural = 'Секция Quote'
+
+
+class PricingSection(models.Model):
+    """Модель для секции Pricing"""
+    title = models.CharField(verbose_name='Заглавие', default='', max_length=255)
+    under_title = models.CharField(verbose_name='Текст под заглавием', default='', max_length=255)
+    text = models.TextField(verbose_name='Текст', default='')
+
+    def __str__(self):
+        return 'Секция Pricing'
+
+    class Meta:
+        verbose_name = 'Секция Pricing'
+        verbose_name_plural = 'Секция Pricing'

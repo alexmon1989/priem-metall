@@ -1,0 +1,11 @@
+[
+  {
+    "model": "home.PricingSection",
+    "pk": 1,
+    "fields": {
+      "title": "Цены",
+      "under_title": "Мы можем предложить вам лучшие цены на рынке",
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida neque vitae diam ultrices mattis. Sed vitae pharetra lorem, ac pharetra elit. Fusce volutpat convallis euismod. Suspendisse venenatis, diam lacinia facilisis condimentum, urna ex posuere lacus, nec ultricies augue nisi id elit. Donec vestibulum augue non ante rutrum varius. Maecenas tortor est, tincidunt sed ullamcorper euismod, bibendum ac nibh. Proin vel elit ac sapien vulputate aliquet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida neque vitae diam ultrices mattis. Sed vitae pharetra lorem, ac pharetra elit. Fusce volutpat convallis euismod. Suspendisse venenatis, diam lacinia facilisis condimentum, urna ex posuere lacus, nec ultricies augue nisi id elit. Donec vestibulum augue non ante rutrum varius. Maecenas tortor est, tincidunt sed ullamcorper euismod, bibendum ac nibh. Proin vel elit ac sapien vulputate aliquet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida neque vitae diam ultrices mattis. Sed vitae pharetra lorem, ac pharetra eli"
+    }
+  }
+]
