@@ -1,7 +1,7 @@
 from django.contrib import admin
 from singlemodeladmin import SingleModelAdmin
 from home.models import (HomeSection, AboutSection, FactsSection, WhyUsSection, SkillsSection, ServicesSection,
-                         QuoteSection, PricingSection)
+                         QuoteSection, PricingSection, JobSchemeSection)
 
 
 class SectionAdmin(SingleModelAdmin):
@@ -17,3 +17,4 @@ admin.site.register(SkillsSection, SectionAdmin)
 admin.site.register(ServicesSection, SectionAdmin)
 admin.site.register(QuoteSection, SectionAdmin)
 admin.site.register(PricingSection, SectionAdmin)
+admin.site.register(JobSchemeSection, SectionAdmin)

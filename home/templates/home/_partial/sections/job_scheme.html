@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row justify-content-center pb-5">
             <div class="col-lg-9 pb-lg-4 text-center">
-                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Схема работы</h3>
-                <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">От связи с нами до вывоза металла проходит минимум времени</p>
+                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">{{ job_scheme_section.title }}</h3>
+                <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">{{ job_scheme_section.under_title }}</p>
                 <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
             </div>
             <!-- //.col-lg-9 -->
@@ -15,13 +15,13 @@
                 <div class="timeline clearfix py-2 py-lg-5">
                     <div class="timeline-item">
                         <div class="card box-shadow">
-                            <img src="static/assets/images/history-1.jpg" alt="" class="card-img-top img-fluid">
+                            <img src="media/{{ job_scheme_section.item_1_image }}" alt="" class="card-img-top img-fluid">
 
                             <div class="card-block">
                                 <div class="p-2">
-                                    <h4 class="card-title font-alt m-0 title-large">1. Звонок или заявка нашему менеджеру</h4>
+                                    <h4 class="card-title font-alt m-0 title-large">{{ job_scheme_section.item_1_title }}</h4>
                                     <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                                    <p class="card-text mt-2 text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.</p>
+                                    <p class="card-text mt-2 text-large">{{ job_scheme_section.item_1_text }}</p>
                                 </div>
                                 <!-- //.p-2 -->
                             </div>
@@ -33,13 +33,13 @@
 
                     <div class="timeline-item timeline-inverted">
                         <div class="card box-shadow">
-                            <img src="static/assets/images/history-2.jpg" alt="" class="card-img-top img-fluid">
+                            <img src="media/{{ job_scheme_section.item_2_image }}" alt="" class="card-img-top img-fluid">
 
                             <div class="card-block">
                                 <div class="p-2">
-                                    <h4 class="card-title font-alt m-0 title-large">2. Выезд менеджера и оценка объекта или оценка в телефонном режиме</h4>
+                                    <h4 class="card-title font-alt m-0 title-large">{{ job_scheme_section.item_2_title }}</h4>
                                     <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                                    <p class="card-text mt-2 text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.</p>
+                                    <p class="card-text mt-2 text-large">{{ job_scheme_section.item_2_text }}</p>
                                 </div>
                                 <!-- //.p-2 -->
                             </div>
@@ -51,13 +51,13 @@
 
                     <div class="timeline-item">
                         <div class="card box-shadow">
-                            <img src="static/assets/images/history-3.jpg" alt="" class="card-img-top img-fluid">
+                            <img src="media/{{ job_scheme_section.item_3_image }}" alt="" class="card-img-top img-fluid">
 
                             <div class="card-block">
                                 <div class="p-2">
-                                    <h4 class="card-title font-alt m-0 title-large">3. Выезд машины, загрузка</h4>
+                                    <h4 class="card-title font-alt m-0 title-large">{{ job_scheme_section.item_3_title }}</h4>
                                     <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                                    <p class="card-text mt-2 text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.</p>
+                                    <p class="card-text mt-2 text-large">{{ job_scheme_section.item_3_text }}</p>
                                 </div>
                                 <!-- //.p-2 -->
                             </div>
@@ -69,13 +69,13 @@
 
                     <div class="timeline-item timeline-inverted">
                         <div class="card box-shadow">
-                            <img src="static/assets/images/history-4.jpg" alt="" class="card-img-top img-fluid">
+                            <img src="media/{{ job_scheme_section.item_4_image }}" alt="" class="card-img-top img-fluid">
 
                             <div class="card-block">
                                 <div class="p-2">
-                                    <h4 class="card-title font-alt m-0 title-large">4. Взвешивание лома</h4>
+                                    <h4 class="card-title font-alt m-0 title-large">{{ job_scheme_section.item_4_title }}</h4>
                                     <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                                    <p class="card-text mt-2 text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.</p>
+                                    <p class="card-text mt-2 text-large">{{ job_scheme_section.item_4_text }}</p>
                                 </div>
                                 <!-- //.p-2 -->
                             </div>
@@ -87,13 +87,13 @@
 
                     <div class="timeline-item">
                         <div class="card box-shadow">
-                            <img src="static/assets/images/history-5.jpg" alt="" class="card-img-top img-fluid">
+                            <img src="media/{{ job_scheme_section.item_5_image }}" alt="" class="card-img-top img-fluid">
 
                             <div class="card-block">
                                 <div class="p-2">
-                                    <h4 class="card-title font-alt m-0 title-large">5. Оплата</h4>
+                                    <h4 class="card-title font-alt m-0 title-large">{{ job_scheme_section.item_5_title }}</h4>
                                     <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                                    <p class="card-text mt-2 text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.</p>
+                                    <p class="card-text mt-2 text-large">{{ job_scheme_section.item_5_text }}</p>
                                 </div>
                                 <!-- //.p-2 -->
                             </div>
@@ -111,11 +111,7 @@
 
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
-                <span class="d-block mt-4 font-alt text-black title-large">Для консультации или оформления заявки свяжитесь с нами</span>
-                <span class="d-block mt-4 font-alt title-extra-large">
-                    <a class="text-base-color" href="tel:+380935325037" title="Нажмите для звонка">+38 (093) 532-50-37</a><br>
-                    <a class="text-base-color" href="tel:+380935325037" title="Нажмите для звонка">+38 (093) 532-50-37</a>
-                </span>
+                {{ job_scheme_section.under_text|safe }}
             </div>
             <!-- //.col-lg-10 -->
         </div>

@@ -169,3 +169,38 @@ class PricingSection(models.Model):
     class Meta:
         verbose_name = 'Секция Pricing'
         verbose_name_plural = 'Секция Pricing'
+
+
+class JobSchemeSection(models.Model):
+    """Модель для секции JobScheme"""
+    title = models.CharField(verbose_name='Заглавие', default='', max_length=255)
+    under_title = models.CharField(verbose_name='Текст под заглавием', default='', max_length=255)
+
+    item_1_title = models.CharField(verbose_name='Название пункта 1', default='', max_length=255)
+    item_1_text = models.TextField(verbose_name='Текст пункта 1', default='')
+    item_1_image = models.ImageField(verbose_name='Изображение пункта 1', upload_to='uploads/')
+
+    item_2_title = models.CharField(verbose_name='Название пункта 2', default='', max_length=255)
+    item_2_text = models.TextField(verbose_name='Текст пункта 2', default='')
+    item_2_image = models.ImageField(verbose_name='Изображение пункта 1', upload_to='uploads/')
+
+    item_3_title = models.CharField(verbose_name='Название пункта 3', default='', max_length=255)
+    item_3_text = models.TextField(verbose_name='Текст пункта 3', default='')
+    item_3_image = models.ImageField(verbose_name='Изображение пункта 3', upload_to='uploads/')
+
+    item_4_title = models.CharField(verbose_name='Название пункта 3', default='', max_length=255)
+    item_4_text = models.TextField(verbose_name='Текст пункта 3', default='')
+    item_4_image = models.ImageField(verbose_name='Изображение пункта 3', upload_to='uploads/')
+
+    item_5_title = models.CharField(verbose_name='Название пункта 3', default='', max_length=255)
+    item_5_text = models.TextField(verbose_name='Текст пункта 3', default='')
+    item_5_image = models.ImageField(verbose_name='Изображение пункта 3', upload_to='uploads/')
+
+    under_text = models.TextField(verbose_name='Текст внизу секции', default='', max_length=255)
+
+    def __str__(self):
+        return 'Секция JobScheme'
+
+    class Meta:
+        verbose_name = 'Секция JobScheme'
+        verbose_name_plural = 'Секция JobScheme'

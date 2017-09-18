@@ -1,0 +1,32 @@
+[
+  {
+    "model": "home.JobSchemeSection",
+    "pk": 1,
+    "fields": {
+      "title": "Схема работы",
+      "under_title": "От связи с нами до вывоза металла проходит минимум времени",
+
+      "item_1_title": "1. Звонок или заявка нашему менеджеру",
+      "item_1_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.",
+      "item_1_image": "uploads/history-1.jpg",
+
+      "item_2_title": "2. Выезд менеджера и оценка объекта или оценка в телефонном режиме",
+      "item_2_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.",
+      "item_2_image": "uploads/history-2.jpg",
+
+      "item_3_title": "3. Выезд машины, загрузка",
+      "item_3_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.",
+      "item_3_image": "uploads/history-3.jpg",
+
+      "item_4_title": "4. Взвешивание лома",
+      "item_4_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.",
+      "item_4_image": "uploads/history-4.jpg",
+
+      "item_5_title": "5. Оплата",
+      "item_5_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Nulla facilisi.",
+      "item_5_image": "uploads/history-5.jpg",
+
+      "under_text": "<span class=\"d-block mt-4 font-alt text-black title-large\">Для консультации или оформления заявки свяжитесь с нами</span><span class=\"d-block mt-4 font-alt title-extra-large\"><a class=\"text-base-color\" href=\"tel:+380935325037\" title=\"Нажмите для звонка\">+38 (093) 532-50-37</a><br><a class=\"text-base-color\" href=\"tel:+380663833290\" title=\"Нажмите для звонка\">+38 (066) 383-32-90</a></span>"
+    }
+  }
+]
