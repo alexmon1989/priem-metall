@@ -1,0 +1,11 @@
+[
+  {
+    "model": "home.SeoSettings",
+    "pk": 1,
+    "fields": {
+      "title": "Приём и вывоз металлолома в Киеве",
+      "description": "",
+      "keywords": ""
+    }
+  }
+]

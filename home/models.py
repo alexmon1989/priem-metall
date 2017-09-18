@@ -264,3 +264,17 @@ class HeaderContactsSection(models.Model):
     class Meta:
         verbose_name = 'Секция HeaderContacts'
         verbose_name_plural = 'Секция HeaderContacts'
+
+
+class SeoSettings(models.Model):
+    """Модель для секции Contacts"""
+    title = models.CharField(verbose_name='Title', default='', max_length=255)
+    description = models.CharField(verbose_name='Description', default='', max_length=255)
+    keywords = models.CharField(verbose_name='keywords', default='', max_length=255)
+
+    def __str__(self):
+        return 'Настройки SEO (метатеги)'
+
+    class Meta:
+        verbose_name = 'Настройки SEO (метатеги)'
+        verbose_name_plural = 'Настройки SEO (метатеги)'

@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.views.decorators.cache import cache_page
 from home.models import (HomeSection, AboutSection, FactsSection, WhyUsSection, SkillsSection, ServicesSection,
                          QuoteSection, PricingSection, JobSchemeSection, TestimonialsSection, ContactsSection,
-                         HeaderContactsSection)
+                         HeaderContactsSection, SeoSettings)
 
 
 @cache_page(60 * 15)
@@ -23,5 +23,6 @@ def home_page(request):
             'testimonials_section': TestimonialsSection.objects.first(),
             'contacts_section': ContactsSection.objects.first(),
             'header_contacts_section': HeaderContactsSection.objects.first(),
+            'seo_settings': SeoSettings.objects.first(),
         }
     )
