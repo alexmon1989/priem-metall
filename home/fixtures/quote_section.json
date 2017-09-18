@@ -1,0 +1,9 @@
+[
+  {
+    "model": "home.QuoteSection",
+    "pk": 1,
+    "fields": {
+      "text": "<span class=\"d-block mt-4 font-alt text-white title-extra-large\">Есть вопросы или хотите оформить заявку на вывоз металлолома?</span><span class=\"d-block mt-4 font-alt text-white title-extra-large\">Свяжитесь с нами</span><span class=\"d-block mt-4 font-alt text-black title-extra-large\"><a class=\"text-base-color\" href=\"tel:+380935325037\" title=\"Нажмите для звонка\">+38 (093) 532-50-37</a><br><a class=\"text-base-color\" href=\"tel:+380663833290\" title=\"Нажмите для звонка\">+38 (066) 383-32-90</a></span>"
+    }
+  }
+]

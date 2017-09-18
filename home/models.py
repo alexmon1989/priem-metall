@@ -143,3 +143,15 @@ class ServicesSection(models.Model):
     class Meta:
         verbose_name = 'Секция Services'
         verbose_name_plural = 'Секция Services'
+
+
+class QuoteSection(models.Model):
+    """Модель для секции Quote"""
+    text = models.TextField(verbose_name='Текст', default='')
+
+    def __str__(self):
+        return 'Секция Quote'
+
+    class Meta:
+        verbose_name = 'Секция Quote'
+        verbose_name_plural = 'Секция Quote'
