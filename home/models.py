@@ -146,6 +146,10 @@ class ServicesSection(models.Model):
     service_3_text = models.CharField(verbose_name='Описание услуги 3', default='', max_length=255)
     service_3_icon = models.CharField(verbose_name='Иконка услуги 3', default='', max_length=255)
 
+    service_4_title = models.CharField(verbose_name='Название услуги 4', default='', max_length=255)
+    service_4_text = models.CharField(verbose_name='Описание услуги 4', default='', max_length=255)
+    service_4_icon = models.CharField(verbose_name='Иконка услуги 4', default='', max_length=255)
+
     def __str__(self):
         return 'Секция Services'
 

@@ -16,7 +16,11 @@
 
       "service_3_title": "Вывоз металлолома",
       "service_3_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-      "service_3_icon": "fa-truck"
+      "service_3_icon": "fa-truck",
+
+      "service_4_title": "Скупка старой бытовой техники",
+      "service_4_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "service_4_icon": "fa-bolt"
     }
   }
 ]
