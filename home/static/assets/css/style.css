@@ -121,37 +121,3 @@
 .top-contacts .row{
     width: 100%;
 }
-
-.top-contacts {
-    height: 60px;
-}
-
-.top-contacts.shrink {
-    height: 50px;
-}
-
-.fixed-top-2 {
-    margin-top: 60px;
-}
-
-.fixed-top-2.shrink {
-    margin-top: 50px;
-}
-
-@media (max-width: 575px) {
-    .top-contacts {
-        height: 80px;
-    }
-
-    .fixed-top-2 {
-        margin-top: 80px;
-    }
-
-    .top-contacts.shrink {
-        height: 80px;
-    }
-
-    .fixed-top-2.shrink {
-        margin-top: 80px;
-    }
-}
