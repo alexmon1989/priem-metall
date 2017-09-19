@@ -68,6 +68,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'home.context_processors.google_analytics_id',
             ],
         },
     },
@@ -147,3 +148,5 @@ INTERNAL_IPS = ['127.0.0.1']
 COMPRESS_CSS_FILTERS = [
     'compressor.filters.css_default.CssAbsoluteFilter',
 ]
+
+GOOGLE_ANALYTICS_ID = ''
