@@ -97,7 +97,7 @@ class WhyUsSection(models.Model):
     reason_6_text = models.CharField(verbose_name='Текст причины 6', default='', max_length=255)
     reason_6_icon = models.CharField(verbose_name='Иконка причины 6', default='', max_length=255)
 
-    under_text = models.TextField(verbose_name='Текст внизу секции', default='', max_length=255)
+    under_text = models.TextField(verbose_name='Текст внизу секции', default='')
 
     def __str__(self):
         return 'Секция WhyUs'
@@ -135,19 +135,19 @@ class ServicesSection(models.Model):
     under_title = models.CharField(verbose_name='Текст под заглавием', default='', max_length=255)
 
     service_1_title = models.CharField(verbose_name='Название услуги 1', default='', max_length=255)
-    service_1_text = models.CharField(verbose_name='Описание услуги 1', default='', max_length=255)
+    service_1_text = models.TextField(verbose_name='Описание услуги 1', default='')
     service_1_icon = models.CharField(verbose_name='Иконка услуги 1', default='', max_length=255)
 
     service_2_title = models.CharField(verbose_name='Название услуги 2', default='', max_length=255)
-    service_2_text = models.CharField(verbose_name='Описание услуги 2', default='', max_length=255)
+    service_2_text = models.TextField(verbose_name='Описание услуги 2', default='')
     service_2_icon = models.CharField(verbose_name='Иконка услуги 2', default='', max_length=255)
 
     service_3_title = models.CharField(verbose_name='Название услуги 3', default='', max_length=255)
-    service_3_text = models.CharField(verbose_name='Описание услуги 3', default='', max_length=255)
+    service_3_text = models.TextField(verbose_name='Описание услуги 3', default='')
     service_3_icon = models.CharField(verbose_name='Иконка услуги 3', default='', max_length=255)
 
     service_4_title = models.CharField(verbose_name='Название услуги 4', default='', max_length=255)
-    service_4_text = models.CharField(verbose_name='Описание услуги 4', default='', max_length=255)
+    service_4_text = models.TextField(verbose_name='Описание услуги 4', default='')
     service_4_icon = models.CharField(verbose_name='Иконка услуги 4', default='', max_length=255)
 
     def __str__(self):
@@ -209,7 +209,7 @@ class JobSchemeSection(models.Model):
     item_5_text = models.TextField(verbose_name='Текст пункта 3', default='')
     item_5_image = models.ImageField(verbose_name='Изображение пункта 3', upload_to='uploads/')
 
-    under_text = models.TextField(verbose_name='Текст внизу секции', default='', max_length=255)
+    under_text = models.TextField(verbose_name='Текст внизу секции', default='')
 
     def __str__(self):
         return 'Секция JobScheme'
