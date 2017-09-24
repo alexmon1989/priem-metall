@@ -9,6 +9,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {% compress css %}
+        <!-- Bootstrap CSS -->
+        <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- Font Awesome CSS -->
+        <link href="{% static 'assets/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- Include all css plugins (below), or include individual files as needed -->
+        <link href="{% static 'assets/css/flickity.min.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'assets/css/magnific-popup.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- Theme CSS -->
+        <link href="{% static 'assets/css/theme.min.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" type="text/css">
+
+        <!-- Color Scheme CSS -->
+        <link href="{% static 'assets/css/color_orange.css' %}" rel="stylesheet" type="text/css">
+        {% endcompress %}
+
         <style>
             .navbar-inverse .navbar-toggler-icon {
                 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 32 32\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(255, 255, 255, 0.5)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 8h24M4 16h24M4 24h24\'/%3E%3C/svg%3E") !important;
@@ -75,25 +95,6 @@
 
         <!-- Scroll to top -->
         <a href="#page-top" class="page-scroll scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
-        {% compress css %}
-        <!-- Bootstrap CSS -->
-        <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
-
-        <!-- Font Awesome CSS -->
-        <link href="{% static 'assets/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
-
-        <!-- Include all css plugins (below), or include individual files as needed -->
-        <link href="{% static 'assets/css/flickity.min.css' %}" rel="stylesheet" type="text/css">
-        <link href="{% static 'assets/css/magnific-popup.css' %}" rel="stylesheet" type="text/css">
-
-        <!-- Theme CSS -->
-        <link href="{% static 'assets/css/theme.min.css' %}" rel="stylesheet" type="text/css">
-        <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" type="text/css">
-
-        <!-- Color Scheme CSS -->
-        <link href="{% static 'assets/css/color_orange.css' %}" rel="stylesheet" type="text/css">
-        {% endcompress %}
 
         {% compress js %}
         <!-- Main JS -->
