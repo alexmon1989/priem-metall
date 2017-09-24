@@ -257,20 +257,6 @@ class ContactsSection(models.Model):
         verbose_name_plural = 'Секция Contacts'
 
 
-class HeaderContactsSection(models.Model):
-    """Модель для секции Contacts"""
-    phone_1 = models.CharField(verbose_name='Телефон 1', default='', max_length=255)
-    phone_2 = models.CharField(verbose_name='Телефон 2', default='', max_length=255)
-    address = models.CharField(verbose_name='Адрес', default='', max_length=255)
-
-    def __str__(self):
-        return 'Секция HeaderContacts'
-
-    class Meta:
-        verbose_name = 'Секция HeaderContacts'
-        verbose_name_plural = 'Секция HeaderContacts'
-
-
 class SeoSettings(models.Model):
     """Модель для секции Contacts"""
     title = models.CharField(verbose_name='Title', default='', max_length=255)
